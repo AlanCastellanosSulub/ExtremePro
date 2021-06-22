@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^usuarios/ usuarios/controller.php
+RewriteRule ^ usuarios/controller.php

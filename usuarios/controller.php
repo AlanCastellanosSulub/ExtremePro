@@ -6,8 +6,8 @@ function handler() {
     $event = VIEW_GET_USER;
     $uri = $_SERVER['REQUEST_URI'];
     $peticiones = array(SET_USER, GET_USER, DELETE_USER, EDIT_USER,
-    VIEW_SET_USER, VIEW_GET_USER, VIEW_DELETE_USER,
-    VIEW_EDIT_USER);
+                VIEW_SET_USER, VIEW_GET_USER, VIEW_DELETE_USER,
+                VIEW_EDIT_USER);
     foreach ($peticiones as $peticion) {
         $uri_peticion = MODULO.$peticion.'/';
         if( strpos($uri, $uri_peticion) == true ) {

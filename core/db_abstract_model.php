@@ -1,8 +1,8 @@
 <?php
 abstract class DBAbstractModel {
 private static $db_host = 'localhost';
-private static $db_user = 'usuario';
-private static $db_pass = 'contraseña';
+private static $db_user = 'root';
+private static $db_pass = '';
 protected $db_name = 'mydb';
 protected $query;
 protected $rows = array();
